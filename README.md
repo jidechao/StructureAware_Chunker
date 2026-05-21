@@ -87,7 +87,7 @@ from ragent_chunker import StructureAwareTextChunker, TextBoundaryOptions
 chunker = StructureAwareTextChunker()
 
 chunks = chunker.chunk_file(
-    r"D:\springboot-project\ragent\README.md",
+    r".\README.md",
     TextBoundaryOptions(
         min_chars=600,
         target_chars=1400,
@@ -244,7 +244,7 @@ chunks = chunker.chunk(
 summary = "全局摘要：本文说明 Ragent 的结构感知分块和向量检索流程。"
 
 chunks = chunker.chunk_file(
-    r"D:\springboot-project\ragent\README.md",
+    r".\README.md",
     TextBoundaryOptions(
         min_chars=600,
         target_chars=1400,
