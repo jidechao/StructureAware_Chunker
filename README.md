@@ -413,7 +413,7 @@ for chunk in chunks:
 在项目根目录执行：
 
 ```powershell
-cd D:\springboot-project\ragent
+cd StructureAware_Chunker
 $env:PYTHONPATH = ".\python"
 .\.venv\Scripts\python.exe -m unittest discover -s .\python\tests
 ```
@@ -421,7 +421,7 @@ $env:PYTHONPATH = ".\python"
 或在 `python` 目录执行：
 
 ```powershell
-cd D:\springboot-project\ragent\python
+cd StructureAware_Chunker\python
 ..\.venv\Scripts\python.exe -m unittest discover -s .\tests
 ```
 
