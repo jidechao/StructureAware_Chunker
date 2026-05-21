@@ -33,7 +33,7 @@ python/
 在项目根目录执行：
 
 ```powershell
-cd D:\springboot-project\ragent
+cd StructureAware_Chunker
 $env:PYTHONPATH = ".\python"
 .\.venv\Scripts\python.exe .\python\demo.py
 ```
@@ -41,7 +41,7 @@ $env:PYTHONPATH = ".\python"
 也可以直接进入 `python` 目录运行：
 
 ```powershell
-cd D:\springboot-project\ragent\python
+cd StructureAware_Chunker\python
 ..\.venv\Scripts\python.exe .\demo.py
 ```
 
